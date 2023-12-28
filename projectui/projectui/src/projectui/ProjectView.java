@@ -26,7 +26,7 @@ public class ProjectView extends TmfView {
     private static final String Y_AXIS_TITLE = "Signal";
     private static final String X_AXIS_TITLE = "Time";
     // CPU Usage sched_switch events
-    private static final String FIELD = "next_tid"; // The name of the field that we want to display on the Y axis
+    private static final String FIELD = "context.packet_seq_num"; // The name of the field that we want to display on the Y axis
     private static final String VIEW_ID = "projectui.view";
     private Chart chart;
     private ITmfTrace currentTrace;
